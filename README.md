@@ -1,1 +1,0 @@
-# vendor-seprate-dashboard
