@@ -1,0 +1,258 @@
+
+
+#recent-sales{
+  margin-top: 60px;
+  /* padding: 20px 30px; */
+  transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* background-color: #fff;  */
+  margin-top: 5%;
+  padding-left: 30px;
+  
+}
+
+@media(max-width:1199px){
+  #recent-sales{
+      padding: 20px;
+  }
+}
+
+.recent-sales-titles {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+
+.recent-sales-titles .button {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #34974d;
+  background-color: #3aa856;
+  color: #fff;
+  font-weight: 600;
+  padding: 0 20px;
+  transition: all 0.3s;
+}
+
+.recent-sales-titles .button:hover {
+  background: #34974d;
+  box-shadow: 0px 1px 12px 7px rgba(31, 194, 77, 1);
+}
+
+.recent-sales-titles .button:hover .button__text {
+  color: transparent;
+}
+
+.recent-sales-titles .button__icon {
+  position: absolute;
+  right: 10px;
+  width: 39px;
+  height: 100%;
+  background-color: #34974d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-sales-titles .button:active {
+  background-color: #2e8644;
+  border: 1px solid #2e8644;
+}
+
+
+.recent-sales.dark {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+.recent-sales.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close_btn {
+  cursor: pointer;
+  color: red;
+  background: none;
+  border: none;
+  padding: 10px;
+}
+
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table-borderless th,
+.table-borderless td,
+.table-borderless thead th {
+  border: none;
+  padding: 15px;
+}
+
+.table tr {
+  border-bottom: 0.1px solid grey;
+}
+
+.table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Badge Styles */
+.badge {
+  font-size: 0.875rem;
+  padding: 0.5em 1em;
+  border-radius: 12px;
+}
+
+.badge.bg-success {
+  background-color: #28a745;
+}
+
+.badge.bg-warning {
+  background-color: #ffc107;
+}
+
+.badge.bg-danger {
+  background-color: #dc3545;
+}
+
+/* Links inside the table */
+.text-primary {
+  color: #007bff !important;
+  text-decoration: none;
+}
+
+.text-primary:hover {
+  color: #0056b3 !important;
+  text-decoration: underline;
+}
+
+/* Input Styles */
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1em 0;
+  max-width: 320px;
+  position: relative;
+}
+
+.inputGroup input,
+.inputGroup select {
+  font-size: 100%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 100%;
+  appearance: none;
+}
+
+
+.inputGroup label {
+  font-size: 100%;
+  position: absolute;
+  left: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  color: black;
+  font-weight: 600;
+}
+
+.inputGroup input:focus ~ label,
+.inputGroup input:not(:placeholder-shown) ~ label,
+.inputGroup select:focus ~ label,
+.inputGroup select:valid ~ label {
+  top: -0.8em; 
+  left: 1em; 
+  font-size: 0.9em; 
+  background-color: #fff;
+  padding: 0 0.2em; 
+}
+
+.text-center {
+  text-align: center;
+}
+
+.overflow-auto {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.table-light {
+  background-color: #333333; 
+  color: #ffffff;
+  padding: 20px;
+}
+
+.popup.light {
+  background-color: #fff; 
+  color: #000;
+}
+
+.popup.dark {
+  background-color: #495057; 
+  color: #fff; 
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+

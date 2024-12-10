@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+}
+  
+.cards {
+    margin: 2rem auto; 
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 190%; 
+}
+  
+.top-selling {
+    max-width: 800px;
+    margin: auto;
+    overflow: auto;
+}
+  
+.card-titles {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+  
+.card-bodys {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#products {
+    margin-top: 60px;
+    transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5%;
+    padding-left: 30px;
+}
+  
+.card-bodys h5 {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+  
+.table-responsive {
+    margin-top: 1rem;
+}
+  
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+.table th, .table td {
+    padding: 1rem;
+    text-align: left;
+    color: #555;
+}
+  
+.table thead th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+    color: #333;
+}
+  
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+  
+.table-borderless th,
+.table-borderless td {
+    border: none;
+}
+  
+.table th {
+    color: #333;
+    font-weight: 600;
+}
+  
+.table td {
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        margin: 1rem auto;
+        max-width: 100%; 
+    }
+}
